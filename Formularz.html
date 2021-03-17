@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Formularz - Praca na lekcji</title>
+<meta charset="utf-8">
+</head>
+<body>
+<form method="post" enctype="text/plain" action="">
+<fieldset style="width:300px;"><legend align="left">Dane osobowe</legend>
+<table>
+<tr>
+<td>Imię:</td><td><input type="text" name="imie" required></td>
+</tr>
+<tr>
+<td>Nazwisko:</td><td><input type="text" name="nazwisko" required></td>
+</tr>
+<tr>
+<td>Data urodzenia:</td><td><input type="date" name="data" required></td>
+</tr>
+<tr>
+<td>Miejsce urodzenia:</td><td><input type="text" name="miejsce" required></td>
+</tr>
+</table>
+</fieldset>
+<fieldset style="width:400px;"><legend align="left">Pozostałe informacje</legend>
+<table>
+<tr>
+<td>Wykształcenie:</td><td><input type="radio" name="wyksztalcenie">podstawowe
+<input type="radio" name="wyksztalcenie">średnie
+<input type="radio" name="wyksztalcenie">wyższe</td>
+</tr>
+<tr>
+<td>Zawód<br>wykonywany:</td><td><input type="text" name="zawod" required></td>
+</tr>
+<tr>
+<td>Dodatkowe<br>umiejętności</td><td><textarea rows="12" cols="30"></textarea>
+</table>
+</fieldset>
